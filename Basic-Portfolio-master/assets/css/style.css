@@ -2,14 +2,7 @@ body {
     background-image: url(../images/dust_scratches.png);
     margin: 0;
     padding: 0;
-}
-
-/* FIGURE OUT WHY THIS IS NOT WORKING BELOW */
-/* Do I have to use a clear/clearfix property? */
-
-#Portfolio_Body {
-    background-repeat: no-repeat;
-    background-size: 100% 50%;
+    background-size: contain;
 }
 
 p {
@@ -51,6 +44,8 @@ footer {
 .inputboxes {
     width: 97%;
     padding: 5px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 /* Message input box */
@@ -60,6 +55,7 @@ footer {
     height: 150px;
     padding: 15px;
     box-sizing: content-box;
+    color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
@@ -67,18 +63,13 @@ footer {
 
 .Body {
     width: 960px;
-    background-color: white;
+    background-color: #ffffff;
     padding: 25px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     display: block;
     border: 1px solid #dddddd;
-}
-
-#Portfolio_Body {
-    height: 840px;
-    margin-bottom: auto;
 }
 
 #Title {
@@ -94,7 +85,10 @@ footer {
     margin-bottom: -6px;
     padding-top: 25px;
     padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
     color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 #LinkOne {
@@ -114,6 +108,8 @@ footer {
     color: #777777;
     text-decoration: none;
     font-size: 18px;
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
@@ -129,10 +125,12 @@ footer {
 
 #Subtitle {
     color: #4aaaa5;
-    margin-top: 10px;
+    margin-top: 7px;
+    margin-bottom: 18px;
     border-bottom: 2px solid #cccccc;
-    padding-bottom: 10px;
-    font-size: 35px;
+    padding-bottom: 23px;
+    font-size: 32px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 #My_Picture {
