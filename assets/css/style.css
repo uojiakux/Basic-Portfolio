@@ -11,6 +11,10 @@ p {
     text-decoration: none;
 }
 
+p.Text {
+    color: white;
+}
+
 a {
     text-decoration: none;
 }
@@ -24,7 +28,7 @@ header {
     border-bottom: 1px solid #cccccc;
     margin-top: 0px;
     margin-bottom: 8px;
-    padding: 6px;
+    padding: 6px 6px -1px 6px;
     z-index: 1;
 }
 
@@ -62,7 +66,7 @@ footer {
 /* Middle White Container  */
 
 .Body {
-    width: 960px;
+    /* width: 960px; */
     background-color: #ffffff;
     padding: 25px;
     margin-left: auto;
@@ -73,60 +77,47 @@ footer {
 }
 
 #Portfolio_Body {
-    height: 830px;
+    height: 1656px;
+}
+
+#Contact_Body {
+    height: 850px;
 }
 
 #Title {
     position: relative;
     top: 0%;
-    right: -17%;
+    right: 1%;
     display: block;
-    width: 260px;
+    width: 387px;
     background-color: #4aaaa5;
     text-align: center;
-    margin-left: 122px;
-    margin-top: -7px;
-    margin-bottom: -6px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    margin-left: 77px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+    padding-top: 23px;
+    padding-bottom: 23px;
     padding-left: 25px;
     padding-right: 25px;
     color: white;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 39px;
 }
 
-#LinkOne {
+#Links {
     position: fixed;
-    top: 4%;
-    right: 15%;
-    color: #777777;
-    text-decoration: none;
-    font-size: 18px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    left: 80%;
 }
 
-#LinkTwo {
-    position:fixed;
-    top: 4%;
-    right: 9.4%;
-    color: #777777;
+#LinkAttributes {
+    float: right;
     text-decoration: none;
     font-size: 18px;
-    padding-left: 8px;
-    padding-right: 8px;
-    border-left: 1px solid #e6e6e6;
-    border-right: 1px solid #e6e6e6;
+    margin-right: 15px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-#LinkThree {
-    position: fixed;
-    top: 4%;
-    right: 5%;
     color: #777777;
-    text-decoration: none;
-    font-size: 18px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: white;
+    width: 100%;
 }
 
 #Subtitle {
@@ -144,82 +135,29 @@ footer {
     margin: 20px;
 }
 
-.Pictures {
-    width: 280px;
-    margin-top: 10px;
+#Pictures {
+    position: relative;
+    float: left;
+    margin: 18px 0px 25px 25px;
+    overflow: auto;
     z-index: 1;
 }
 
-#RPG {
-    position: relative;
-    left: 0px;
-    bottom: 69px;
-}
-
-#Rutgers {
-    position: relative;
-    left: 310px;
-    bottom: 942px;
-}
-
-#Rock {
-    position: relative;
-    left: 310px;
-    bottom: 1011px;
-}
-
-#Trivia {
-    position: relative;
-    left: 0px;
-    bottom: 136px;
-}
-
-.Overlay_Text {
-    background-color: #4aaaa5;
-    width: 280px;
+.Overlay {
     text-align: center;
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 1px;
-    padding-right: 1px;
+    background: #4aaaa5;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    width: 350px;
+    padding: 15px;
+    position: relative;
+    float: left;
+    left: 10px;
+    bottom: -148px;
+    margin: 18px 11px 30px -360px;
     z-index: 2;
-}
-
-#HangmanOverlay {
-    position: relative;
-    bottom: 114px;
-    left: -1px;
-}
-
-#TriviaOverlay {
-    position: relative;
-    bottom: 496px;
-    left: -1px;
-}
-
-#RockOverlay {
-    position: relative;
-    bottom: 876px;
-    left: -1px;
-}
-
-#RPGOverlay {
-    position: relative;
-    bottom: 428px;
-    left: 309px;
-}
-
-#RutgersOverlay {
-    position: relative;
-    bottom: 809px;
-    left: 310px;
-}
-
-p.Text {
-    color: white;
-    text-align: center;
-}
+  }
 
 button {
     margin-top: 10px;
